@@ -3,7 +3,7 @@ from openpyxl import load_workbook
   
 # Call a Workbook() function of openpyxl  
 # to create a new blank Workbook object 
-arr_str = "Num","Date","Time","T/No","G.w(kg)","T.w(kg)","N.w(kg)"
+arr_str = "Num","Date","Time","year","state","where","who"
 wb = load_workbook('/YOUR/FILE/PATH.xlsx')  
 sheet = wb.active
  
